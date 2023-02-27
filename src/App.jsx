@@ -2,15 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-function App()
-{
-    const [count, setCount] = useState(0)
+function App() {
+  const [count, setCount] = useState(0)
 
-    return(
-        <div>
-            <header className="header">
+  return (
+    <div>
+       <header className="header">
     <div className="container d-flex flex-column align-items-center">
-      <img classNameName="header__avatar" src="./images/avatar.png" alt="avatar" />
+      <img className="header__avatar" src="./images/avatar.png" alt="avatar"/>
       <h1 className="header__title">Name</h1>
       <hr className="divider--light"/>
       <p className="header__slogan">Slogan</p>
@@ -24,19 +23,19 @@ function App()
       <div className="row">
         <div className="image mt-4 col-sm-6 col-lg-3">
           <a href="" className="image__link">
-            <img src="images/img1.jpg" alt="" className="image__style" />
+            <img src="images/img1.jpg" alt="" className="image__style"/>
           </a>
           <p className="image_title">Place 1</p>
         </div>
         <div className="image mt-4 col-sm-6 col-lg-3">
           <a href="" className="image__link">
-            <img src="images/img2.jpg" alt="" className="image__style" />
+            <img src="images/img2.jpg" alt="" className="image__style"/>
           </a>
           <p className="image_title">Place 2</p>
         </div>
         <div className="image mt-4 col-sm-6 col-lg-3">
           <a href="" className="image__link">
-            <img src="images/img3.jpg" alt="" className="image__style" />
+            <img src="images/img3.jpg" alt="" className="image__style"/>
           </a>
           <p className="image_title">Place 3</p>
         </div>
@@ -116,8 +115,8 @@ function App()
       </div>
     </div>
   </footer>
-        </div>
-    )
+    </div>
+  )
 }
 
 export default App
