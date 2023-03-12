@@ -1,4 +1,4 @@
-export default function Header({title, slogan}){
+export default function Header(){
     return(
         <header className="header">
         <div className="container d-flex flex-column align-items-center">
